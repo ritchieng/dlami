@@ -17,6 +17,15 @@ Under community AMI, search for TFAMI or `ami-d0e4adc7`.
 - 40 GB EBS
 - Can be used on any GPU instances including the new p2 instances.
 
+## Actively Tested Regions
+N. Virginia 
+N. California
+Oregon
+Singapore
+
+## Available Regions
+All! 
+
 ## Have a bug to report?
 Raise an issue here and we'll update TFAMI to make sure it works or enable it across different regions.
 
