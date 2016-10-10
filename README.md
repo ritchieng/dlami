@@ -19,12 +19,20 @@ Under community AMI, search for TFAMI.
 
 ## Actively Tested Regions
 - N. Virginia `ami-d0e4adc7`
-- N. California
-- Oregon
-- Singapore
+- N. California `ami-5ce2ab3c`
+- Oregon `ami-92af74f2`
+- Singapore `ami-4362c520`
 
-## Available Regions
-All! 
+
+## All Other Regions
+- Ireland `ami-b8f7b4cb`
+- Frankfurt `ami-d09b65bf`
+- Tokyo `ami-9331eaf2`
+- Seoul `ami-45a3772b`
+- Sydney `ami-be596bdd`
+- Mumbai `ami-fe1a6e91`
+- Sao Paulo `ami-cd2fbda1`
+
 
 ## Have a bug to report?
 Raise an issue here and we'll update TFAMI to make sure it works or enable it across different regions.
