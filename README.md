@@ -4,7 +4,7 @@ Are you frustrated that many AMIs are not working to get TensorFlow working? Or 
 This is an AMI that I hope people, including myself, would continually monitor and ensure it works all the time. I call it TFAMI! How innovative.
 
 ## How to find?
-Under community AMI, search for TFAMI or `ami-d0e4adc7`. 
+Under community AMI, search for TFAMI.
 
 ## Technical Specifications
 - TensorFlow 0.8.0
@@ -18,10 +18,10 @@ Under community AMI, search for TFAMI or `ami-d0e4adc7`.
 - Can be used on any GPU instances including the new p2 instances.
 
 ## Actively Tested Regions
-N. Virginia 
-N. California
-Oregon
-Singapore
+- N. Virginia `ami-d0e4adc7`
+- N. California
+- Oregon
+- Singapore
 
 ## Available Regions
 All! 
