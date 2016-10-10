@@ -1,7 +1,7 @@
 # TensorFlow AWS AMI aka TFAMI
 Are you frustrated that many AMIs are not working to get TensorFlow working? Or that you have to waste time setting up your instances?
 
-This is an AMI that I hope people, including myself, would continually monitor and ensure it works all the time. 
+This is an AMI that I hope people, including myself, would continually monitor and ensure it works all the time. I call it TFAMI! How innovative.
 
 ## How to find?
 Under community AMI, search for TFAMI or `ami-d0e4adc7`. 
