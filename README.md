@@ -1,4 +1,4 @@
-# TensorFlow AWS AMI
+# TensorFlow AWS AMI aka TFAMI
 
 Are you frustrated that many AMIs are not working to get TensorFlow working? Or that you have to waste time setting up your instances?
 
