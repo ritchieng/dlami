@@ -9,6 +9,7 @@ Under community AMI, search for TFAMI.
 ## Technical Specifications
 - TensorFlow 0.8.0
 - Keras 1.0.4
+- OpenAI Gym
 - Python 2.7
 - CUDA 7.5
 - CuDNN 5
