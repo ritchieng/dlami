@@ -3,10 +3,12 @@ Are you frustrated that many AMIs are not working to get TensorFlow working? Or 
 
 This is an AMI that I hope people, including myself, would continually monitor and ensure it works all the time. I call it TFAMI! How innovative.
 
+Also, I have included Keras and OpenAI Gym as a bonus! You can do most of your work. Other packages are easily installed with pip if you need anything else. 
+
 ## How to find?
 Under community AMI, search for TFAMI.
 
-## Technical Specifications
+## Cool Stuff Installed and Ready to Use
 - TensorFlow 0.8.0
 - Keras 1.0.4
 - OpenAI Gym
