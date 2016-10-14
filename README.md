@@ -17,7 +17,7 @@ Under community AMI, search for TFAMI.
 - CuDNN 5
 
 ## How to install? 
-If you are a complete noob with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) which is for beginners. But instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for TFAMI instead. 
+If you are a complete noob with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for TFAMI instead. 
 
 ## Instance Specifications
 - 40 GB EBS
