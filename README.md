@@ -6,7 +6,7 @@ This is an AMI that I hope people, including myself, would continually monitor a
 Also, I have included Keras and OpenAI Gym as a bonus! You can do most of your work. Other packages are easily installed with pip if you need anything else. 
 
 ## How to find?
-Under community AMI, search for TFAMI.
+Under community AMI, search for TFAMI.v2 or TFAMI.
 
 ## TFAMI.v2
 - Tensorflow 0.10.0
@@ -26,14 +26,18 @@ Under community AMI, search for TFAMI.
 - Ubuntu 14.04
 
 ## How to install? 
-If you are a complete noob with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for TFAMI instead. 
+If you are a complete noob with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for TFAMI.v2 or TFAMI instead. 
 
 Please take note we've update TensorFlow and all dependencies, and our new version is available as TFAMI.v2.
 
-## Instance Specifications
+## TFAMI.v2 Instance Specifications
+- 100 GB EBS
+- Can be used on any GPU instances including the new p2 instances.
+_You can easily change your EBS volume with this [guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-expand-volume.html)._
+
+## TFAMI Instance Specifications
 - 40 GB EBS
 - Can be used on any GPU instances including the new p2 instances.
-
 
 ## Regions (TFAMI.v2)
 - N. Virginia `ami-a96634be`
