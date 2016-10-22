@@ -14,6 +14,7 @@ Under community AMI, search for TFAMI.
 - CUDA 8.0
 - CuDNN 5.1
 - Python 2.7
+- Ubuntu 16.04
 
 ## TFAMI 
 - TensorFlow 0.8.0
@@ -22,6 +23,7 @@ Under community AMI, search for TFAMI.
 - Python 2.7
 - CUDA 7.5
 - CuDNN 5
+- Ubuntu 14.04
 
 ## How to install? 
 If you are a complete noob with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for TFAMI instead. 
