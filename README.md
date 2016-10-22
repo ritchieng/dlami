@@ -28,7 +28,7 @@ Under community AMI, search for TFAMI.v2 or TFAMI.
 ## How to install? 
 If you are a complete noob with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for TFAMI.v2 or TFAMI instead. 
 
-Please take note we've update TensorFlow and all dependencies, and our new version is available as TFAMI.v2.
+Please take note we have updated TensorFlow and all dependencies, and our new version is available as TFAMI.v2.
 
 ## TFAMI.v2 Instance Specifications
 - 100 GB EBS
@@ -41,6 +41,17 @@ _You can easily change your EBS volume with this [guide](http://docs.aws.amazon.
 
 ## Regions (TFAMI.v2)
 - N. Virginia `ami-a96634be`
+- Ohio `ami-73045e16`
+- N. California `ami-813a71e1`
+- Oregon `ami-ac8b2fcc`
+- Singapore `ami-2c0bad4f`
+- Ireland `ami-19d49a6a`
+- Frankfurt `ami-155ca57a`
+- Tokyo `ami-b701a7d6`
+- Seoul `ami-80ec38ee`
+- Sydney `ami-ec201d8f`
+- Mumbai `ami-1b562274`
+- Sao Paulo `ami-0c28b560`
 
 ## Regions (TFAMI)
 - N. Virginia `ami-d0e4adc7`
