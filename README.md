@@ -8,7 +8,14 @@ Also, I have included Keras and OpenAI Gym as a bonus! You can do most of your w
 ## How to find?
 Under community AMI, search for TFAMI.
 
-## Cool Stuff Installed and Ready to Use
+## TFAMI.v2
+- Tensorflow 0.10.0
+- Keras 1.1.0
+- CUDA 8.0
+- CuDNN 5.1
+- Python 2.7
+
+## TFAMI 
 - TensorFlow 0.8.0
 - Keras 1.0.4
 - OpenAI Gym
@@ -19,18 +26,21 @@ Under community AMI, search for TFAMI.
 ## How to install? 
 If you are a complete noob with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for TFAMI instead. 
 
+Please take note we've update TensorFlow and all dependencies, and our new version is available as TFAMI.v2.
+
 ## Instance Specifications
 - 40 GB EBS
 - Can be used on any GPU instances including the new p2 instances.
 
-## Actively Tested Regions
+
+## Regions (TFAMI.v2)
+- N. Virginia `ami-a96634be`
+
+## Regions (TFAMI)
 - N. Virginia `ami-d0e4adc7`
 - N. California `ami-5ce2ab3c`
 - Oregon `ami-92af74f2`
 - Singapore `ami-4362c520`
-
-
-## All Other Regions
 - Ireland `ami-b8f7b4cb`
 - Frankfurt `ami-d09b65bf`
 - Tokyo `ami-9331eaf2`
