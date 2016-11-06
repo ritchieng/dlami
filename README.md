@@ -32,7 +32,7 @@ Please take note we have updated TensorFlow and all of its dependencies. The new
 
 ## FAQs
 1. I am facing this error `Failed to initialize NVML: Driver/library version mismatch`, how do I solve it?
-- Simply run `sudo reboot`. 
+	- Simply run `sudo reboot`. 
 
 ## Regions (TFAMI.v2)
 - N. Virginia `ami-a96634be`
