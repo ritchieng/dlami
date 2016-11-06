@@ -30,6 +30,10 @@ If you are a unfamiliar with Amazon AWS GPU instance, I suggest you use this [gu
 
 Please take note we have updated TensorFlow and all of its dependencies. The new version is available as `TFAMI.v2`. 
 
+## FAQs
+1. I am facing this error `Failed to initialize NVML: Driver/library version mismatch`, how do I solve it?
+- Simply run `sudo reboot`. 
+
 ## Regions (TFAMI.v2)
 - N. Virginia `ami-a96634be`
 - Ohio `ami-73045e16`
@@ -65,6 +69,12 @@ _You can easily change your EBS volume with this [guide](http://docs.aws.amazon.
 ## TFAMI Instance Specifications
 - 40 GB EBS
 - Can be used on any GPU instances including the new p2 instances.
+
+## Upcoming light-weight upgrades
+- TensorLayer
+- Numba
+- OpenAI Gym
+- OpenCV
 
 ## Have a bug to report?
 Raise an issue here and we'll update TFAMI to make sure it works or enable it across different regions.
