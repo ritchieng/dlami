@@ -30,9 +30,11 @@ If you are a unfamiliar with Amazon AWS GPU instance, I suggest you use this [gu
 
 Please take note we have updated TensorFlow and all of its dependencies. The new version is available as `TFAMI.v2`. 
 
-## FAQs
-1. I am facing this error `Failed to initialize NVML: Driver/library version mismatch`, how do I solve it?
-	- Simply run `sudo reboot`. 
+## FAQs (Relating to Driver Issues)
+1. Error: `Failed to initialize NVML: Driver/library version mismatch`
+	- Run `sudo reboot`. 
+2. Error: `NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.`
+	- Run `sudo apt-get update`.
 
 ## Regions (TFAMI.v2)
 - N. Virginia `ami-a96634be`
