@@ -9,6 +9,7 @@ Also, I have included Keras and OpenAI Gym as a bonus! Other packages can be eas
 Under community AMI, search for `TFAMI.v2` or `TFAMI`.
 
 ## TFAMI.v2 (latest stable AMI)
+_If you are running `p2 instance`, you should use this._
 - Tensorflow 0.10.0
 - Keras 1.1.0
 - CUDA 8.0
@@ -17,6 +18,7 @@ Under community AMI, search for `TFAMI.v2` or `TFAMI`.
 - Ubuntu 16.04
 
 ## TFAMI 
+_If you are running `g2 instance`, you should use this._
 - TensorFlow 0.8.0
 - Keras 1.0.4
 - OpenAI Gym
@@ -35,6 +37,9 @@ Please take note we have updated TensorFlow and all of its dependencies. The new
 	- Run `sudo reboot`. 
 2. Error: `NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.`
 	- Run `sudo apt-get update`.
+3. Why does `p2 instance` work with only `TFAMI.v2`. 
+	- This is due to a configuration I did when I manually compiled TensorFlow and indicated `compute capability 3.5` where `g2 instance` only has `compute capability 3.0`.
+	- I would be ensuring that both `g2 instance` and `p2 instance` would work on the upcoming `TFAMI.v3`. 
 
 ## Regions (TFAMI.v2)
 - N. Virginia `ami-a96634be`
