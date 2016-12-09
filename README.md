@@ -50,10 +50,12 @@ Please take note we have updated TensorFlow and all of its dependencies. The new
 3. Why does `p2 instance` work with only `TFAMI.v2`. 
 	- This is due to a configuration I did when I manually compiled TensorFlow and indicated `compute capability 3.5` where `g2 instance` only has `compute capability 3.0`.
 	- I would be ensuring that both `g2 instance` and `p2 instance` would work on the upcoming `TFAMI.v3`. 
+4. Error: `Mismatch of Kernel with DSO`
+	- Run `sudo reboot`.
 
 ## Regions (TFAMI.v2)
 _More will be added once I have conducted tests._
-- N. Virginia `ami-c37f7fd4`
+- N. Virginia `ami-0e969619`
 
 ## Regions (TFAMI.v2)
 - N. Virginia `ami-a96634be`
