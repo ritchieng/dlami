@@ -83,7 +83,7 @@ _More will be added once I have conducted tests._
 - Sao Paulo `ami-cd2fbda1`
 
 
-## TFAMI.v2 Instance Specifications
+## TFAMI.v3 Instance Specifications
 - 100 GB EBS
 - Can be used on any GPU instances including the new p2 instances and the old g2 instances
 _You can easily change your EBS volume with this [guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-expand-volume.html)._
