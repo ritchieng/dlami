@@ -6,7 +6,7 @@ This is an AMI that I hope people, including myself, would continually monitor a
 Also, I have included Keras and OpenAI Gym as a bonus! Other packages can be easily installed with `pip install package_name` if you need anything else. 
 
 ## How to find?
-Under community AMI, search for `TFAMI.v2` or `TFAMI`.
+Under community AMI, search for `TFAMI.v3` or `TFAMI.v2`. Please take note that `TFAMI.v3` is very new and I am still deploying it across different regions.
 
 ## TFAMI.v3 (latest AMI)
 _This works on both `p2` and `g2` instances but I am working on deploying on all regions._
