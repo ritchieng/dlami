@@ -27,7 +27,7 @@ _If you are running `p2 instance`, you should use this._
 - Python 2.7
 - Ubuntu 16.04
 
-## TFAMI
+## TFAMI (deprecated)
 _If you are running `g2 instance`, you should use this._
 - TensorFlow 0.8.0
 - Keras 1.0.4
@@ -38,7 +38,7 @@ _If you are running `g2 instance`, you should use this._
 - Ubuntu 14.04
 
 ## How to install? 
-If you are a unfamiliar with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is made for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for `TFAMI.v2` or `TFAMI` instead. 
+If you are a unfamiliar with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is made for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for `TFAMI.v3` or `TFAMI.v2` instead. 
 
 Please take note we have updated TensorFlow and all of its dependencies. The new version is available as `TFAMI.v2`. 
 
@@ -49,7 +49,7 @@ Please take note we have updated TensorFlow and all of its dependencies. The new
 	- Run `sudo apt-get update`.
 3. Why does `p2 instance` work with only `TFAMI.v2`. 
 	- This is due to a configuration I did when I manually compiled TensorFlow and indicated `compute capability 3.5` where `g2 instance` only has `compute capability 3.0`.
-	- I would be ensuring that both `g2 instance` and `p2 instance` would work on the upcoming `TFAMI.v3`. 
+	- Both `g2 instance` and `p2 instance` would work on the official `TFAMI.v3`. 
 4. Error: `Mismatch of Kernel with DSO`
 	- Run `sudo reboot`.
 
