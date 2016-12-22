@@ -40,7 +40,7 @@ _If you are running `g2 instance`, you should use this._
 ## How to install? 
 If you are a unfamiliar with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is made for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for `TFAMI.v3` or `TFAMI.v2` instead. 
 
-Please take note we have updated TensorFlow and all of its dependencies. The new version is available as `TFAMI.v2`. 
+Please take note we have updated TensorFlow and all of its dependencies. The new version is available as `TFAMI.v3`. 
 
 ## FAQs (Relating to Driver Issues)
 1. Error: `Failed to initialize NVML: Driver/library version mismatch`
@@ -53,9 +53,23 @@ Please take note we have updated TensorFlow and all of its dependencies. The new
 4. Error: `Mismatch of Kernel with DSO`
 	- Run `sudo reboot`.
 
-## Regions (TFAMI.v2)
-_More will be added once I have conducted tests._
+## Regions (TFAMI.v3)
 - N. Virginia `ami-0e969619`
+- Ohio `ami-9cc69cf9`
+- N. California `ami-08451468`
+- Oregon `ami-52bb0c32`
+- Canada `ami-cb2694af`
+- Singapore `ami-2c0bad4f`
+- Ireland `ami-b34566c0`
+- Frankfurt `ami-515c9c3e`
+- London `ami-d4e2e8b0`
+- Singapore `ami-e6862885`
+- Sydney `ami-baa19ad9`
+- Seoul `ami-8fa87ee1`
+- Tokyo `ami-96e982f1`
+- Mumbai `ami-3fcdba50`
+- Sao Paulo `ami-19198175`
+
 
 ## Regions (TFAMI.v2)
 - N. Virginia `ami-a96634be`
