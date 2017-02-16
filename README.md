@@ -6,10 +6,10 @@ This is an AMI that I hope people, including myself, would continually monitor a
 Also, I have included Keras and OpenAI Gym as a bonus! Other packages can be easily installed with `pip install package_name` if you need anything else. 
 
 ## How to find?
-Under community AMI, search for `TFAMI.v3` or `TFAMI.v2`. Please take note that `TFAMI.v3` is very new and I am still deploying it across different regions.
+Under community AMI, search for `TFAMI.v3` or `TFAMI.v2`.
 
-## TFAMI.v3 (latest AMI)
-_This works on both `p2` and `g2` instances but I am working on deploying on all regions._
+## TFAMI.v3 (latest stable AMI)
+_This works on both `p2` and `g2` instances._
 - Tensorflow 0.12 [head](https://github.com/tensorflow/tensorflow/tree/9d66dae6fc5d1b964a03498ddabb97a78a999015)
 - Keras 1.1.0
 - TensorLayer 1.2.7
@@ -18,7 +18,7 @@ _This works on both `p2` and `g2` instances but I am working on deploying on all
 - Python 2.7
 - Ubuntu 16.04
 
-## TFAMI.v2 (stable AMI)
+## TFAMI.v2 (old)
 _If you are running `p2 instance`, you should use this._
 - Tensorflow 0.10.0
 - Keras 1.1.0
@@ -27,7 +27,7 @@ _If you are running `p2 instance`, you should use this._
 - Python 2.7
 - Ubuntu 16.04
 
-## TFAMI (deprecated)
+## TFAMI (old)
 _If you are running `g2 instance`, you should use this._
 - TensorFlow 0.8.0
 - Keras 1.0.4
@@ -38,7 +38,7 @@ _If you are running `g2 instance`, you should use this._
 - Ubuntu 14.04
 
 ## How to install? 
-If you are a unfamiliar with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is made for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for `TFAMI.v3` or `TFAMI.v2` instead. 
+If you are a unfamiliar with Amazon AWS GPU instance, I suggest you use this [guide](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/) that is made for beginners. Trust me, you cannot go wrong with the guide and this AMI! Instead of using the AMI that the website recommends (you will know when you reach that section how to search for an AMI), just search for `TFAMI.v3`.
 
 Please take note we have updated TensorFlow and all of its dependencies. The new version is available as `TFAMI.v3`. 
 
@@ -98,7 +98,6 @@ Please take note we have updated TensorFlow and all of its dependencies. The new
 - Mumbai `ami-fe1a6e91`
 - Sao Paulo `ami-cd2fbda1`
 
-
 ## TFAMI.v3 Instance Specifications
 - 100 GB EBS
 - Can be used on any GPU instances including the new p2 instances and the old g2 instances
@@ -115,6 +114,19 @@ _You can easily change your EBS volume with this [guide](http://docs.aws.amazon.
 
 ## Have a bug to report?
 Raise an issue here and we'll update TFAMI to make sure it works or enable it across different regions.
+
+## Information
+This is actively maintained by [Ritchie Ng](http://www.ritchieng.com/) from the National University of Singapore.
+
+And I would like to thank Amazon for their donation of AWS credits for our research that led to this useful byproduct deployed by people across the world.
+
+## Upcoming Updates
+- TensorFlow 1.0.0
+- All dependencies updated accordingly.
+	- Keras
+	- TensorLayer
+	- CUDA
+	- CuDNN
 
 ## License
 MIT
