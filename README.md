@@ -1,12 +1,14 @@
-# TensorFlow AWS AMI aka TFAMI
+<p align="center"><img width="40%" src="tfami.png" /></p>
+
+--------------------------------------------------------------------------------
 Are you frustrated that many AMIs are not working to get TensorFlow working? Or that you have to waste time setting up your instances?
 
 This is an AMI that I hope people, including myself, would continually monitor and ensure it works all the time. I call it TFAMI! How innovative.
 
-Also, I have included Keras and OpenAI Gym as a bonus! Other packages can be easily installed with `pip install package_name` if you need anything else. 
+It comes with some packages pre-installed like Python, Keras and TensorLayer. Other packages can be easily installed with `pip install package_name` if you need anything else. 
 
 ## How to find?
-Under community AMI, search for `TFAMI.v3` or `TFAMI.v2`.
+Under community AMI, search for `TFAMI.v3`.
 
 ## TFAMI.v3 (latest stable AMI)
 _This works on both `p2` and `g2` instances._
