@@ -1,6 +1,9 @@
 <p align="center"><img width="40%" src="tfami.png" /></p>
 
 --------------------------------------------------------------------------------
+
+**Latest update: our Amazon credits has expired `¯\_(ツ)_/¯` As such, we are unable to host these AMIs as they cost some money across regions. We thank you for your support for the past months as these AMIs proved to be really useful for many people across the world.**
+
 Are you frustrated that many AMIs are not working to get TensorFlow working? Or that you have to waste time setting up your instances?
 
 This is an AMI that I hope people, including myself, would continually monitor and ensure it works all the time. I call it TFAMI! How innovative.
