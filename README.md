@@ -2,7 +2,7 @@
 
 --------------------------------------------------------------------------------
 
-**Latest update: our Amazon credits has expired `¯\_(ツ)_/¯` As such, we are unable to host these AMIs on all regions as they cost some money across regions. We thank you for your support for the past months as these AMIs proved to be really useful for many people across the world. We are considering to host in one region only for now and we would be providing updates soon.**
+**Latest update: previously our Amazon credits has expired `¯\_(ツ)_/¯` and we were unable to host these AMIs on all regions as they cost a bit. However, we have received funding and we are now able to continue this initiative. I will be pushing a new update for one region and I will be making a call for anybody to make an image in their respective countries to keep this project alive forever.**
 
 Are you frustrated that many AMIs are not working to get TensorFlow working? Or that you have to waste time setting up your instances?
 
