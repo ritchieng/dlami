@@ -42,7 +42,7 @@ Under community AMI, search for `DLAMI.V1`. It is currently only available in `O
 Raise an issue here and we'll update DLAMI to make sure it works or enable it across different regions.
 
 ## Information
-This is actively maintained by [Ritchie Ng](http://www.ritchieng.com/) from the National University of Singapore.
+This is actively maintained by [Ritchie Ng](http://www.ritchieng.com/) and [Jie Fu](http://bigaidream.github.io/) from NExT Search Centre, NUS Smart Systems Institute, National University of Singapore. 
 
 And I would like to thank Amazon for their donation of AWS credits for our research that led to this useful byproduct deployed by people across the world.
 
