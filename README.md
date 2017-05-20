@@ -1,7 +1,5 @@
 <p align="center"><img width="40%" src="dlami.png" /></p>
 
---------------------------------------------------------------------------------
-
 **Latest update: we've renamed TFAMI to DLAMI to cover most deep learning frameworks**
 
 ## How to find?
