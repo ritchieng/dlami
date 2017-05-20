@@ -1,14 +1,12 @@
 <p align="center"><img width="40%" src="dlami.png" /></p>
 
-**Latest update: we've renamed TFAMI to DLAMI to cover most deep learning frameworks**
-
 <p align="center">
 	<img src="https://img.shields.io/badge/stars-100+-blue.svg"/>
 	<img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
 </p>
 
 ## How to find?
-Under community AMI, search for `DLAMI.V1`.
+Under community AMI, search for `DLAMI.V1`. It is currently only available in `Oregon`. 
 
 ## DLAMI.V1 (latest stable AMI)
 - Python 2.7
