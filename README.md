@@ -2,6 +2,11 @@
 
 **Latest update: we've renamed TFAMI to DLAMI to cover most deep learning frameworks**
 
+<p align="center">
+	<img src="https://img.shields.io/badge/stars-100+-blue.svg"/>
+	<img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
+</p>
+
 ## How to find?
 Under community AMI, search for `DLAMI.V1`.
 
