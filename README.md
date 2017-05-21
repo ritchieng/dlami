@@ -37,6 +37,8 @@ Under community AMI, search for `DLAMI.V1`. It is currently only available in `O
 ## DLAMI Instance Specifications
 - 50 GB EBS
 - Can be used on any GPU instances including the new p2 instances.
+- User: ec2-user 
+	- For example, when you ssh into your instance you would key in `ssh -i name_of_key.pem ec2-user@public_ip_or_dns`
 
 ## Have a bug to report?
 Raise an issue here and we'll update DLAMI to make sure it works or enable it across different regions.
