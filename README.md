@@ -13,7 +13,7 @@ Under community AMI, search for `DLAMI.V1`. It is currently only available in `O
 - PyTorch 0.1.12
 - TensorFlow 1.0.1
 - Theano 0.8.2
-- Keras 1.2.2
+- Keras 2.0.4
 - MXNet 0.9.3
 - Lua 
 - Torch
