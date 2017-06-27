@@ -9,7 +9,7 @@
 Under community AMI, search for `DLAMI.V1`. It is currently only available in `Oregon`. 
 
 ## DLAMI.V1 (latest stable AMI)
-- Python 2.7
+- Python 2.7 and Python 3.5
 - PyTorch 0.1.12
 - TensorFlow 1.0.1
 - Theano 0.8.2
